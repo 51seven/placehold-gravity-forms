@@ -13,6 +13,16 @@ Placehold Gravity Forms
 
 I took a some code from [this article](http://www.wpbeginner.com/wp-tutorials/how-to-add-placeholder-text-in-gravity-forms/) and optimized it. Applause to the author(s?) from wpbeginner.com
 
+## Version
+
+#### v1.0.1
+
+* Parsed HTML was returned with the Document Wrapper (Doctype, head, body). Fixed that.
+
+#### v1.0
+
+* Init
+
 ## License
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
