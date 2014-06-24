@@ -11,7 +11,7 @@ Placehold Gravity Forms
 
 ## Credits
 
-I took a some code from [this article](http://www.wpbeginner.com/wp-tutorials/how-to-add-placeholder-text-in-gravity-forms/) and optimized it.
+I took a some code from [this article](http://www.wpbeginner.com/wp-tutorials/how-to-add-placeholder-text-in-gravity-forms/) and optimized it. Applause to the author(s?) from wpbeginner.com
 
 ## License
 
