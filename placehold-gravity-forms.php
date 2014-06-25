@@ -3,7 +3,7 @@
  * Plugin Name: Placehold Gravity Forms
  * Plugin URI: https://github.com/51seven/placehold-gravity-forms
  * Description: Adds a placeholder to inputs Gravity Forms.
- * Version: 1.0.1
+ * Version: 1.1
  * Author: 51seven GmbH, Timo Maemecke
  * Author URI: http://51seven.de
  * License: MIT
@@ -13,8 +13,8 @@
 /**
  * Definition of some text for the Gravity Forms admin menu
  */
-$title = 'Placeholder';
-$description = 'This text will be displayed as the HTML5 Placeholder of the input field.';
+$cust_title = 'Placeholder';
+$cust_description = 'This text will be displayed as the HTML5 Placeholder of the input field.';
 
 
 /**
@@ -28,14 +28,14 @@ $description = 'This text will be displayed as the HTML5 Placeholder of the inpu
  */
 function placehold_gform_field_standard_settings($position, $form_id) {
 	if($position == 25) {
-		$output  = '<li class="admin_label_setting field_setting" style="display: list-item; ">';
+		$output = '<li class="admin_label_setting field_setting" style="display: list-item; ">';
 		$output .= '<label for="field_placeholder">Placeholder'
-			.' <a href="#" onclick="return false;" class="gf_tooltip tooltip tooltip_form_field_label" title="<h6>'.$title.'</h6>'.$description.'"><i class="fa fa-question-circle"></i></a>'
-			.' <a href="#" onclick="return false;" class="gf_tooltip tooltip tooltip_form_field_label_html" title="<h6>'.$title.'</h6>'.$description.'" style="display: none;"><i class="fa fa-question-circle"></i></a>'
+			.' <a href="#" onclick="return false;" class="gf_tooltip tooltip tooltip_form_field_label" title="<h6>'.$cust_title.'</h6>'.$cust_description.'"><i class="fa fa-question-circle"></i></a>'
+			.' <a href="#" onclick="return false;" class="gf_tooltip tooltip tooltip_form_field_label_html" title="<h6>'.$cust_title.'</h6>'.$cust_description.'" style="display: none;"><i class="fa fa-question-circle"></i></a>'
 			.'</label>';
 		$output .= '<input type="text" id="field_placeholder" class="fieldwidth-3" size="35" onkeyup="SetFieldProperty(\'placeholder\', this.value);">';
 		$output .= '</li>';
-		echo $ouput;
+		echo $output;
 	}
 }
 
