@@ -1,28 +1,33 @@
-Placehold Gravity Forms
-=======================
+=== Placehold (Gravity Forms) ===
+Contributors: 51seven
+Tags: gravity forms, gravity, input, placeholder
+Requires at least: 3.0.1
+Tested up to: 3.4
+Stable tag: 1.0
+License: MIT
+License URI: https://github.com/51seven/placehold-gravity-forms/blob/master/LICENSE
 
-#### Adds a proper HTML5 placeholder without JavaScript to inputs in Gravity Forms.
+Adds a placeholder field to Gravity Forms
 
-## Installation
+== Description ==
 
-1. Put this into your plugins directory (`wp-content/plugins`)
-2. Activate the plugin in wp-admin
-3. You're done.
+This plugin adds a placeholder field into your Gravity Forms input and displays it as a proper HTML5 placeholder attribute without JavaScript (yaay!)
 
-## Credits
+I took code from [this article from wpbeginner.com](http://www.wpbeginner.com/wp-tutorials/how-to-add-placeholder-text-in-gravity-forms/) and optimized it. Applause to them.
 
-I took a some code from [this article](http://www.wpbeginner.com/wp-tutorials/how-to-add-placeholder-text-in-gravity-forms/) and optimized it. Applause to the author(s?) from wpbeginner.com
+== Installation ==
 
-## Version
+1. Upload `placehold-gravity-forms.php` to the `/wp-content/plugins/` directory
+2. Activate the plugin through the 'Plugins' menu in WordPress
+3. Done. Check out your Forms in Gravity Forms.
 
-#### v1.0.1
+== Frequently Asked Questions ==
 
-* Parsed HTML was returned with the Document Wrapper (Doctype, head, body). Fixed that.
+= Do I need to implement jQuery somewhere? =
 
-#### v1.0
+No. This plugin works fine without adding jQuery to your theme.
 
-* Init
+== Changelog ==
 
-## License
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+= 1.0 =
+Init
