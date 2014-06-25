@@ -9,14 +9,6 @@
  * License: MIT
  */
 
-
-/**
- * Definition of some text for the Gravity Forms admin menu
- */
-$cust_title = 'Placeholder';
-$cust_description = 'This text will be displayed as the HTML5 Placeholder of the input field.';
-
-
 /**
  * Adds the placeholder input to the field of Gravity Forms.
  * HTML Code is the same as in every input of a Gravity field,
@@ -30,8 +22,8 @@ function placehold_gform_field_standard_settings($position, $form_id) {
 	if($position == 25) {
 		$output = '<li class="admin_label_setting field_setting" style="display: list-item; ">';
 		$output .= '<label for="field_placeholder">Placeholder'
-			.' <a href="#" onclick="return false;" class="gf_tooltip tooltip tooltip_form_field_label" title="<h6>'.$cust_title.'</h6>'.$cust_description.'"><i class="fa fa-question-circle"></i></a>'
-			.' <a href="#" onclick="return false;" class="gf_tooltip tooltip tooltip_form_field_label_html" title="<h6>'.$cust_title.'</h6>'.$cust_description.'" style="display: none;"><i class="fa fa-question-circle"></i></a>'
+			.' <a href="#" onclick="return false;" class="gf_tooltip tooltip tooltip_form_field_label" title="<h6>Placeholder</h6>This text will be displayed as the HTML5 Placeholder of the input field."><i class="fa fa-question-circle"></i></a>'
+			.' <a href="#" onclick="return false;" class="gf_tooltip tooltip tooltip_form_field_label_html" title="<h6>Placeholder</h6>This text will be displayed as the HTML5 Placeholder of the input field." style="display: none;"><i class="fa fa-question-circle"></i></a>'
 			.'</label>';
 		$output .= '<input type="text" id="field_placeholder" class="fieldwidth-3" size="35" onkeyup="SetFieldProperty(\'placeholder\', this.value);">';
 		$output .= '</li>';
