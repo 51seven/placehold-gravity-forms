@@ -3,7 +3,7 @@ Contributors: 51seven
 Tags: gravity forms, gravity, input, placeholder
 Requires at least: 3.0.1
 Tested up to: 3.4
-Stable tag: 1.0
+Stable tag: 1.1.2
 License: MIT
 License URI: https://github.com/51seven/placehold-gravity-forms/blob/master/LICENSE
 
@@ -28,6 +28,9 @@ I took code from [this article from wpbeginner.com](http://www.wpbeginner.com/wp
 No. This plugin works fine without adding jQuery to your theme.
 
 == Changelog ==
+
+= 1.1.2 =
+Tagged wrong version, sorry
 
 = 1.1.1 =
 HTML entities converted correctly
