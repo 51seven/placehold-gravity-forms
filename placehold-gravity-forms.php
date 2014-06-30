@@ -3,7 +3,7 @@
  * Plugin Name: Placehold Gravity Forms
  * Plugin URI: https://github.com/51seven/placehold-gravity-forms
  * Description: Adds a placeholder to inputs Gravity Forms.
- * Version: 1.1
+ * Version: 1.1.1
  * Author: 51seven GmbH, Timo Maemecke
  * Author URI: http://51seven.de
  * License: MIT
@@ -60,7 +60,8 @@ function placehold_gform_editor_js() {
 function placehold_gform_field_content($content, $field, $value, $lead_id, $form_id) {
 	if(isset($field['placeholder']) && !empty($field['placeholder'])) {
 		$dom = new DOMDocument();
-	    @$dom->loadHTML($content);
+		$utf8content = mb_convert_encoding($content, 'HTML-ENTITIES', "UTF-8");
+	    @$dom->loadHTML($utf8content);
 	    $path = new DOMXPath($dom);
 
 	    foreach($path->query("//input") as $node) {   

@@ -29,5 +29,11 @@ No. This plugin works fine without adding jQuery to your theme.
 
 == Changelog ==
 
+= 1.1.1 =
+HTML entities converted correctly
+
+= 1.1 =
+Fixed that the generated input had an html wrapper
+
 = 1.0 =
 Init
