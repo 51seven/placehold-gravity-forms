@@ -1,9 +1,9 @@
 === Placehold (Gravity Forms) ===
 Contributors: 51seven
-Tags: gravity forms, gravity, input, placeholder
+Tags: gravity forms, gravity, input, textarea, placeholder
 Requires at least: 3.0.1
 Tested up to: 3.4
-Stable tag: 1.1.2
+Stable tag: 1.2
 License: MIT
 License URI: https://github.com/51seven/placehold-gravity-forms/blob/master/LICENSE
 
@@ -28,6 +28,9 @@ I took code from [this article from wpbeginner.com](http://www.wpbeginner.com/wp
 No. This plugin works fine without adding jQuery to your theme.
 
 == Changelog ==
+
+= 1.2 =
+Added support for textarea
 
 = 1.1.2 =
 Tagged wrong version, sorry

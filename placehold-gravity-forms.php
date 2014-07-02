@@ -64,7 +64,10 @@ function placehold_gform_field_content($content, $field, $value, $lead_id, $form
 	    @$dom->loadHTML($utf8content);
 	    $path = new DOMXPath($dom);
 
-	    foreach($path->query("//input") as $node) {   
+	    foreach($path->query("//input") as $node) {
+	        $node->setAttribute("placeholder", $field['placeholder']);
+	    }
+	    foreach($path->query("//textarea") as $node) {
 	        $node->setAttribute("placeholder", $field['placeholder']);
 	    }
 	    $content = preg_replace(array("/^\<\!DOCTYPE.*?<html><body>/si", "!</body></html>$!si"), "", $dom->saveHtml());
