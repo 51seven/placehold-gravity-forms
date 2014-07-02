@@ -3,7 +3,7 @@
  * Plugin Name: Placehold Gravity Forms
  * Plugin URI: https://github.com/51seven/placehold-gravity-forms
  * Description: Adds a placeholder to inputs Gravity Forms.
- * Version: 1.1.2
+ * Version: 1.2
  * Author: 51seven GmbH, Timo Maemecke
  * Author URI: http://51seven.de
  * License: MIT
