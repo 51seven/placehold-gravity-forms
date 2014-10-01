@@ -2,7 +2,7 @@
 Contributors: 51seven
 Tags: gravity forms, gravity, input, textarea, placeholder
 Requires at least: 3.0.1
-Tested up to: 3.4
+Tested up to: 4.0
 Stable tag: 1.2
 License: MIT
 License URI: https://github.com/51seven/placehold-gravity-forms/blob/master/LICENSE
